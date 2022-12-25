@@ -1,0 +1,242 @@
+[
+  {
+    "storeIdx": 0,
+    "storeName": "롯데백화점인천점",
+    "mainAddress": "인천 미추홀구 연남로 35",
+    "detailAdderss": "롯데백화점 인천점 5층",
+    "region": "경기",
+    "isNewStore": true,
+    "contact": "869-945-3553",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 1,
+    "storeName": "현대백화점울산점",
+    "mainAddress": "울산 남구 삼산로 261",
+    "detailAdderss": "현대백화점 울산점 2층",
+    "region": "경상",
+    "isNewStore": true,
+    "contact": "279-782-2689",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 2,
+    "storeName": "알라카르테강남점",
+    "mainAddress": "서울 강남구 논현로 539",
+    "detailAdderss": "HLI빌딩 B1 알라카르테",
+    "region": "서울",
+    "isNewStore": false,
+    "contact": "504-129-3239",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 3,
+    "storeName": "신세계백화점대전Art&Science점",
+    "mainAddress": "대전 유성구 도룡동 3-1",
+    "detailAdderss": "신세계백화점 Art&Sience점 지하1층 유라",
+    "region": "대전/충청",
+    "isNewStore": false,
+    "contact": "478-826-4114",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 4,
+    "storeName": "신세계백화점본점",
+    "mainAddress": "서울 중구 퇴계로 77",
+    "detailAdderss": "신세계백화점 신관 2층 유라",
+    "region": "서울",
+    "isNewStore": false,
+    "contact": "229-137-3460",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 5,
+    "storeName": "롯데백화점동탄점",
+    "mainAddress": "경기 화성시 동탄역로 160",
+    "detailAdderss": "롯데백화점 동탄점 6층 유라",
+    "region": "경기",
+    "isNewStore": false,
+    "contact": "318-448-1783",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 6,
+    "storeName": "롯데백화점잠실점",
+    "mainAddress": "서울시 송파구 잠실동 40-1",
+    "detailAdderss": "롯데백화점 잠실점 1층 알라카르테",
+    "region": "서울",
+    "isNewStore": false,
+    "contact": "384-795-2234",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 7,
+    "storeName": "현대백화점여의도점",
+    "mainAddress": "서울시 영등포구 여의대로 108",
+    "detailAdderss": "더 현대 서울 5층 유라",
+    "region": "서울",
+    "isNewStore": false,
+    "contact": "581-234-3744",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 8,
+    "storeName": "롯데백화점본점",
+    "mainAddress": "서울시 중구 소공동 1",
+    "detailAdderss": "롯데백화점 본점 8층 알라카르테",
+    "region": "서울",
+    "isNewStore": false,
+    "contact": "999-107-7593",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 9,
+    "storeName": "현대백화점무역점",
+    "mainAddress": "서울 강남구 테헤란로 517",
+    "detailAdderss": "현대백화점 무역센터 4층 유라",
+    "region": "서울",
+    "isNewStore": false,
+    "contact": "574-849-2115",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 10,
+    "storeName": "현대백화점압구정본점",
+    "mainAddress": "서울 강남구 압구정1동",
+    "detailAdderss": "현대백화점본점 지하1층 유라",
+    "region": "서울",
+    "isNewStore": false,
+    "contact": "816-120-4913",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 11,
+    "storeName": "신세계백화점강남점",
+    "mainAddress": "서울 서초구 신반포로 176",
+    "detailAdderss": "신세계백화점 강남점 9층 카리스매장",
+    "region": "서울",
+    "isNewStore": false,
+    "contact": "952-907-1072",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 12,
+    "storeName": "현대백화점판교점",
+    "mainAddress": "경기 성남시 분당구 백현동 541",
+    "detailAdderss": "현대백화점 판교점 8층 알라카르테",
+    "region": "경기",
+    "isNewStore": false,
+    "contact": "381-812-2343",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 13,
+    "storeName": "AK플라자분당점",
+    "mainAddress": "경기도 성남시 분당구 서현동 263",
+    "detailAdderss": "AK플라자 분당점 5층 유라",
+    "region": "경기",
+    "isNewStore": false,
+    "contact": "807-888-8506",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 14,
+    "storeName": "신세계백화점경기점",
+    "mainAddress": "경기도 용인시 수지구 포은대로 536",
+    "detailAdderss": "신세계백화점 경기점 6층 유라",
+    "region": "경기",
+    "isNewStore": false,
+    "contact": "865-338-7223",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 15,
+    "storeName": "현대백화점킨텍스점",
+    "mainAddress": "경기 고양시 일산서구 호수로 817",
+    "detailAdderss": "현대백화점 킨텍스점 7층 유라",
+    "region": "경기",
+    "isNewStore": false,
+    "contact": "430-484-9376",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 16,
+    "storeName": "현대백화점중동점",
+    "mainAddress": "경기도 부천시 길주로 180",
+    "detailAdderss": "현대백화점 중동점 7층",
+    "region": "경기",
+    "isNewStore": false,
+    "contact": "607-575-4010",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 17,
+    "storeName": "롯데백화점중동점",
+    "mainAddress": "경기도 부천시 원미구 길주로300",
+    "detailAdderss": "롯데백화점 중동점 9층",
+    "region": "경기",
+    "isNewStore": false,
+    "contact": "593-482-4286",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 18,
+    "storeName": "갤러리아대전타임월드점",
+    "mainAddress": "대전 서구 둔산2동 1036번지",
+    "detailAdderss": "갤러리아 타임월드 10층 유라",
+    "region": "대전/충청",
+    "isNewStore": false,
+    "contact": "926-565-4720",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 19,
+    "storeName": "신세계백화점광주점",
+    "mainAddress": "광주광역시 서구 무진대로 932",
+    "detailAdderss": "신세계백화점 광주점 8층",
+    "region": "전라",
+    "isNewStore": false,
+    "contact": "790-643-2745",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 20,
+    "storeName": "신세계백화점부산센텀시티점",
+    "mainAddress": "부산광역시 해운대구 우동 1495",
+    "detailAdderss": "신세계 센텀점 7층 유라",
+    "region": "경상",
+    "isNewStore": false,
+    "contact": "476-447-6336",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 21,
+    "storeName": "롯데백화점부산본점",
+    "mainAddress": "부산진구 가야대로 772",
+    "detailAdderss": "롯데백화점 부산본점 6층 유라",
+    "region": "경상",
+    "isNewStore": false,
+    "contact": "423-898-3282",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 22,
+    "storeName": "현대백화점대구점",
+    "mainAddress": "대구 중구 계산동2가",
+    "detailAdderss": "현대백화점 대구점 7층 유라",
+    "region": "경상",
+    "isNewStore": false,
+    "contact": "333-773-3904",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  },
+  {
+    "storeIdx": 23,
+    "storeName": "신세계백화점대구점",
+    "mainAddress": "대구광역시 동구 신천동 329-6",
+    "detailAdderss": "신세계백화점 대구점 7층 유라",
+    "region": "경상",
+    "isNewStore": false,
+    "contact": "179-691-6803",
+    "storeImage": "https://loremflickr.com/590/450/cats"
+  }
+]
