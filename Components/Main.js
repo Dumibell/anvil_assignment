@@ -2,6 +2,10 @@ import { ItemCard } from "./ItemCard";
 import * as S from "../Components/Styled";
 import Image from "next/image";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faFilter } from "@fortawesome/free-solid-svg-icons";
 
 export const Main = ({ data }) => {
   // const [filteredData, setFilteredData] = useState();
@@ -12,6 +16,12 @@ export const Main = ({ data }) => {
     <>
       <S.MainContainer>
         <S.MainTitle>매장 안내</S.MainTitle>
+        <S.MobileFilterContainer>
+          <S.MobileFilterButton>
+            필터
+            <FontAwesomeIcon icon={faFilter} className="filterIcon" />
+          </S.MobileFilterButton>
+        </S.MobileFilterContainer>
         <S.FilterContainer>
           <S.FilterBar>
             {FILTER_LIST.map((list) => {
@@ -43,13 +53,23 @@ export const Main = ({ data }) => {
                     width={309}
                     height={235.96}
                   />
-                  {/* <img src={item.storeImage} alt="매장 이미지" /> */}
+
                   <S.StoreName>{item.storeName}</S.StoreName>
-                  <S.StoreAddress>
-                    {item.mainAddress}
-                    {item.detailAdderss}
-                  </S.StoreAddress>
-                  <S.StoreContact>{item.contact}</S.StoreContact>
+                  <S.StoreAddressContainer>
+                    <FontAwesomeIcon
+                      icon={faLocationDot}
+                      className="locationIcon"
+                    />
+                    <S.StoreAddress>
+                      <span className="address">
+                        {item.mainAddress} {item.detailAdderss}
+                      </span>
+                    </S.StoreAddress>
+                  </S.StoreAddressContainer>
+                  <S.StoreContact>
+                    <FontAwesomeIcon icon={faPhone} className="phoneIcon" />
+                    {item.contact}
+                  </S.StoreContact>
                 </S.ItemCard>
               );
             }
