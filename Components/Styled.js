@@ -6,6 +6,7 @@ export const NavBar = styled.div`
   width: 100vw;
   height: 60px;
   justify-content: space-between;
+  align-items: center;
 `;
 
 export const NavList = styled.div`
@@ -14,6 +15,10 @@ export const NavList = styled.div`
   left: 280px;
   width: 96px;
   height: 36px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const MainContainer = styled.div`
@@ -23,6 +28,12 @@ export const MainContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+`;
+
+export const LogoImage = styled.div`
+  width: 124.44px;
+  height: 28px;
+  background-color: black;
 `;
 
 export const MainTitle = styled.div`
@@ -93,10 +104,10 @@ export const FilterList = styled.div`
 `;
 
 export const ItemCardContainer = styled.div`
-  width: 1002px;
+  width: 1041px;
   margin-top: 32px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
 
   @media screen and (max-width: 768px) {
@@ -108,6 +119,7 @@ export const ItemCardContainer = styled.div`
 export const ItemCard = styled.div`
   width: 309px;
   height: 450px;
+  padding: 0 19px 0 19px;
 
   @media screen and (max-width: 768px) {
     height: 400px;

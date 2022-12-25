@@ -10,6 +10,7 @@ import { faFilter } from "@fortawesome/free-solid-svg-icons";
 export const Main = ({ data }) => {
   // const [filteredData, setFilteredData] = useState();
   const [clickedRegion, setClickedRegion] = useState("전체");
+  const [dropDown, setDropDown] = useState(false);
 
   return (
     // <div>dd</div>
@@ -17,7 +18,7 @@ export const Main = ({ data }) => {
       <S.MainContainer>
         <S.MainTitle>매장 안내</S.MainTitle>
         <S.MobileFilterContainer>
-          <S.MobileFilterButton>
+          <S.MobileFilterButton onClick={() => setDropDown(true)}>
             필터
             <FontAwesomeIcon icon={faFilter} className="filterIcon" />
           </S.MobileFilterButton>
@@ -75,7 +76,6 @@ export const Main = ({ data }) => {
             }
           })}
         </S.ItemCardContainer>
-        <div>카드</div>
       </S.MainContainer>
     </>
   );

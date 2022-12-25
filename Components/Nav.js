@@ -3,7 +3,7 @@ import * as style from "../Components/Styled";
 export const Nav = () => {
   return (
     <style.NavBar>
-      <div>이미지</div>
+      <style.LogoImage>이미지</style.LogoImage>
       {NAV_LIST.map((list) => {
         return <style.NavList key={list.id}>{list.name}</style.NavList>;
       })}
@@ -13,7 +13,7 @@ export const Nav = () => {
 };
 
 const NAV_LIST = [
-  { id: 1, name: "알라카르테" },
+  { id: 1, name: "About" },
   { id: 2, name: "유라" },
   { id: 3, name: "알라카르테" },
   { id: 4, name: "공지사항" },
