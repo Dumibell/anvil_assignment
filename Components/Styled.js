@@ -1,5 +1,14 @@
 import styled from "styled-components";
 
+//Body
+// export const Body = styled.div`
+//   @media screen and (max-width: 768px) {
+//     background-color: ${(props) => (props.primary ? "black" : "white")};
+//     opacity: ${(props) => (props.primary ? 0.5 : 1)};
+//   }
+// `;
+
+//Nav
 export const NavBar = styled.div`
   position: fixed;
   display: flex;
@@ -11,10 +20,18 @@ export const NavBar = styled.div`
 
 export const NavList = styled.div`
   display: flex;
+  justify-content: center;
   top: 12px;
   left: 280px;
   width: 96px;
   height: 36px;
+  font-weight: bold;
+  color: ${(props) => (props.primary ? "#174882" : "black")};
+  border-bottom: ${(props) => (props.primary ? "2px solid #174882" : "")};
+
+  &:hover {
+    cursor: pointer;
+  }
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -33,9 +50,11 @@ export const MainContainer = styled.div`
 export const LogoImage = styled.div`
   width: 124.44px;
   height: 28px;
-  background-color: black;
+  background-color: #174882;
+  margin-left: 38px;
 `;
 
+//Main
 export const MainTitle = styled.div`
   width: 100vw;
   height: 35px;
@@ -71,6 +90,36 @@ export const MobileFilterButton = styled.div`
   }
 `;
 
+export const MobileFilterBox = styled.div`
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 308px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+
+  .filter {
+    width: 100vw;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .xIcon {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 14px;
+    height: 14px;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+`;
+
 export const FilterContainer = styled.div`
   width: 100vw;
   display: flex;
@@ -100,6 +149,18 @@ export const FilterList = styled.div`
 
   &:hover {
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+    height: 44px;
+    background-color: ${(props) => (props.primary ? "#EDEDEE" : "white")};
+    color: ${(props) => (props.primary ? "black" : "#B1B1B1")};
+    font-size: 16px;
+    &:hover {
+      background-color: #ededee;
+      color: black;
+    }
   }
 `;
 

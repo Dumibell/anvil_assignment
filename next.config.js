@@ -4,14 +4,14 @@ const nextConfig = {
   images: {
     domains: ["loremflickr.com"],
   },
-  // async rewrites() {
-  //   return [
-  //     {
-  //       source: "/:path*",
-  //       destination: "http://localhost/:3000/:path*",
-  //     },
-  //   ];
-  // },
+  async rewrites() {
+    return [
+      {
+        source: "/:path*",
+        destination: "http://localhost:4000/:path*",
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

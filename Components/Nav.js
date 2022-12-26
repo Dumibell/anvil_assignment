@@ -1,11 +1,21 @@
+import { useState } from "react";
 import * as style from "../Components/Styled";
 
 export const Nav = () => {
+  const [navList, setNavList] = useState("About");
   return (
     <style.NavBar>
-      <style.LogoImage>이미지</style.LogoImage>
+      <style.LogoImage>로고</style.LogoImage>
       {NAV_LIST.map((list) => {
-        return <style.NavList key={list.id}>{list.name}</style.NavList>;
+        return (
+          <style.NavList
+            key={list.id}
+            onClick={() => setNavList(list.name)}
+            primary={list.name === navList}
+          >
+            {list.name}
+          </style.NavList>
+        );
       })}
       <div>아이콘 들어갈 자리</div>
     </style.NavBar>

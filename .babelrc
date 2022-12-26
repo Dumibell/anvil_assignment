@@ -1,3 +1,5 @@
+//next.js에서 styled-component 사용시 새로고침하면 스타일 적용 안되는 문제
+
 {
   "presets": ["next/babel"],
   "plugins": [
